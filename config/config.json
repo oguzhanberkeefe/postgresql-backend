@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "klooftech",
+    "database": "klooftech",
+    "host": "127.0.0.1",
+    "port": 5434,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "klooftech",
+    "database": "klooftech_test",
+    "host": "127.0.0.1",
+    "port": 5434,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "klooftech",
+    "database": "klooftech",
+    "host": "127.0.0.1",
+    "port": 5434,
+    "dialect": "postgres"
+  }
+}

@@ -1,0 +1,23 @@
+services:
+  dev-db:
+    image: postgres:17
+    ports:
+      - 5434:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: klooftech
+      POSTGRES_DB: klooftech
+    networks:
+      - klooftech
+  test-db:
+    image: postgres:17
+    ports:
+      - 5435:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: klooftech
+      POSTGRES_DB: klooftech
+    networks:
+      - klooftech
+networks:
+  klooftech:
